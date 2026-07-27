@@ -1,0 +1,3 @@
+# Day 2 retail catalog dashboard uses Python 3 stdlib only
+# (http.server, subprocess, json, etc.). No PyPI packages required.
+# Docker provides PostgreSQL; no DB driver package needed.

@@ -1,0 +1,45 @@
+# Build / compile outputs
+target/
+build/
+dist/
+out/
+bin/
+obj/
+*.egg-info/
+*.egg
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+venv/
+.venv/
+
+# Node (if ever added)
+node_modules/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Local runtime / secrets
+.dashboard.pid
+*.log
+*.pid
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+secrets/
+docker-compose.override.yml
